@@ -1,4 +1,6 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {};
+const nextConfig = {
+  transpilePackages: ["@my-monorepo/ui"],
+};
 
-export default nextConfig;
+module.exports = nextConfig;
